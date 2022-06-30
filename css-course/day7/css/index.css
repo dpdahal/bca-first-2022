@@ -1,0 +1,37 @@
+
+/*
+css position: absolute;
+css position: relative;
+css position: fixed;
+css position: sticky;
+css position: static;
+css position: inherit;
+css position: initial;
+css position: unset;
+*/
+
+/*.container{*/
+/*    width: 300px;*/
+/*    height: 300px;*/
+/*    background: red;*/
+/*    margin: auto;*/
+/*    !*position:relative;*!*/
+/*}*/
+
+/*.demo{*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*    background: blue;*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*}*/
+
+
+.box{
+    width: 100%;
+    height: 40px;
+    background: blue;
+    position:sticky;
+    top:0;
+
+}

@@ -1,0 +1,52 @@
+.container{
+    width: 90%;
+    height: 400px;
+    background: lightgray;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1{
+
+    /*height: 200px;*/
+    background: red;
+    width: 300px;
+    min-height: 200px;
+    /*float: left;*/
+}
+
+.box-2 {
+
+    height: 200px;
+    background: yellow;
+    /*float: left;*/
+    /*margin-left: 100px;*/
+}
+.box-3 {
+
+    height: 200px;
+    background: green;
+    /*float: right;*/
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li{
+    min-width: 100px;
+}
+
+ul li ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}

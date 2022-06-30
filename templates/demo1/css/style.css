@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+/*==========top header start =========*/
+
+.top-header {
+    width: 100%;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.top-main-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.left-section ul li {
+    padding: 10px;
+    border-right: 1px solid #d7d7d7;
+}
+
+.left-section ul li:last-child {
+    border: none;
+}
+
+.left-section ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.right-section ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.right-section ul li {
+    padding: 10px;
+}
+
+.right-section ul li {
+    border-right: 1px solid #d7d7d7;
+}
+
+.right-section ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.right-section ul li:last-child {
+    border: none;
+}
+
+/*==========end top header =========*/
+
+.header{
+    width: 100%;
+    height: 100px;
+}
+.header-main-section{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+
+    padding: 10px;
+}
+.company-name{
+    width: 40%;
+
+}
+.company-name h1{
+    margin: 0;
+    padding: 0;
+    line-height: 100px;
+    text-align: center;
+}
+
+.search-course{
+    width: 40%;
+    display: flex;
+}
+
+.search-course .form-control{
+    height: 40px;
+    width: 70%;
+    margin-top: 30px;
+
+}
+.search-course .btn-search{
+    height: 46px;
+    margin-top: 30px;
+    width: 30%;
+    background: green;
+    color: white;
+    border: 1px solid green;
+}
+.search-course .btn-search:hover{
+    background: darkgreen;
+}
+
+.menu{
+    width: 100%;
+    height: 40px;
+    background: #0039d9;
+}
+
+.menu .nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.menu .nav ul li{
+    min-width: 100px;
+    line-height: 40px;
+    text-align: center;
+}
+.menu .nav ul li:hover{
+    background: orange;
+}
+
+.menu .nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.slider{
+    width: 100%;
+    height: 400px;
+
+
+}
+.slider img{
+    width: 100%;
+    height: 400px;
+}
+
+.search-box-section{
+    width: 350px;
+    height: 300px;
+    background: red;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    opacity: 0.5;
+}
+
+.intro-text{
+    width: 500px;
+    height: 200px;
+    background: tomato;
+    position: absolute;
+    top: 380px;
+    right: 0;
+}

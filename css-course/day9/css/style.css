@@ -1,0 +1,25 @@
+.box1 {
+    width: 50%;
+    height: 80px;
+    background: red;
+    float: left;
+}
+
+.box2 {
+    width: 50%;
+    height: 80px;
+    background: #0039d9;
+    float: left;
+}
+
+@media (max-width: 678px) {
+    .box1 {
+        width: 100%;
+        background: green;
+    }
+    .box2 {
+        width: 100%;
+        background: #ea9000;
+        display: none;
+    }
+}
